@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node dist/main.js",
+    "prestart": "npm run build"
+  }
+}
